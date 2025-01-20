@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangul Alphabet</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        /* Resetting default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #2a68d4;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: #2a68d4;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2a68d4;
+            color: white;
+            padding: 10px 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        /* Main Section */
+        .content {
+            margin-top: 40px;
+            text-align: left;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* Hangul Info Section */
+        #hangul-info {
+            background-color: #eaf4ff;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+            border-left: 5px solid #2a68d4;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-gallery img {
+            max-width: 45%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* List Styles */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            padding: 12px;
+            background-color: #f0f4ff;
+            border-left: 5px solid #2a68d4;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+       
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .image-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-gallery img {
+                max-width: 80%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hangul Alphabet</h1>
+    <p>Explore the Korean Alphabet, Hangul: Learn about its history, structure, and pronunciation.</p>
+</header>
+
+<div class="content">
+    <section>
+        <h2>What is Hangul?</h2>
+        <p id="hangul-info">
+            Hangul, the Korean script, was developed by King Sejong the Great in the 15th century, aiming to provide literacy to common people.
+            Before Hangul, Koreans used Classical Chinese characters. Hangul is a phonetic alphabet, consisting of consonants and vowels, making it easy to learn and read. It is considered one of the most scientific writing systems in the world.
+        </p>
+    </section>
+
+    <section class="image-gallery">
+        <img src="https://www.fluencypending.com//wp-content/uploads/2020/12/Basic-Hangul-characters.png" alt="Hangul Consonants">
+        <img src="https://www.fluencypending.com//wp-content/uploads/2020/12/Combination-vowels-Korean-Hangul.png" alt="Hangul Combination Vowels">
+    </section>
+
+    <section>
+        <h3>Pronunciation of Each Hangul Letter</h3>
+        <ul>
+            <li>ㄱ = k</li>
+            <li>ㄴ = n</li>
+            <li>ㄷ = d</li>
+            <li>ㄹ = r/l</li>
+            <li>ㅁ = m</li>
+            <li>ㅂ = b</li>
+            <li>ㅅ = s</li>
+            <li>ㅈ = j</li>
+            <li>ㅎ = h</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Hangul Vowels</h3>
+        <ul>
+            <li>ㅏ = a</li>
+            <li>ㅑ = ya</li>
+            <li>ㅓ = eo</li>
+            <li>ㅕ = yeo</li>
+            <li>ㅗ = o</li>
+            <li>ㅛ = yo</li>
+            <li>ㅜ = u</li>
+            <li>ㅠ = yu</li>
+            <li>ㅡ = eu</li>
+            <li>ㅣ = i</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>

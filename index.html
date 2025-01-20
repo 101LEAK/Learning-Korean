@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEAk -> Learn Everything About Korea </title>
+    <!-- Link to the external CSS file -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header containing the heading and navigation bar -->
+    <header>
+        <h1>
+            Welcome to LEAK! 
+            <span>Learn Everything About Korea Now!</span>
+        </h1>
+        <!-- Navigation bar -->
+        <nav>
+            <a href="hangul-alphabet.html">Hangul Alphabet</a>
+            <a href="basic-conversation.html">Basic Conversation/Words</a>
+            <a href="grammar.html">Grammar</a>
+            <a href="syntax.html">Syntax</a>
+            <a href="general-info.html">General Info</a>
+        </nav>
+    </header>
+    <!-- Additional Information Boxes -->
+    <section class="info-boxes">
+        <div class="info-box">
+            <h2>Do you want to learn about the Korean Alphabet?</h2>
+            <a href="hangul-alphabet.html" class="info-link">Click here!</a>
+        </div>
+
+        <div class="info-box">
+            <h2>Do you want to learn about Basic Conversation/Words?</h2>
+            <a href="basic-conversation.html" class="info-link">Click here!</a>
+        </div>
+
+        <div class="info-box">
+            <h2>Do you want to learn about Grammar?</h2>
+            <a href="grammar.html" class="info-link">Click here!</a>
+        </div>
+
+        <div class="info-box">
+            <h2>Do you want to learn about Syntax?</h2>
+            <a href="syntax.html" class="info-link">Click here!</a>
+        </div>
+
+        <div class="info-box">
+            <h2>Do you want to learn about General Info?</h2>
+            <a href="general-info.html" class="info-link">Click here!</a>
+        </div>
+    </section>
+
+    <!-- Main content section for user comments -->
+    <section class="comments-section">
+        <div class="comment-box">
+            <h2>Leave a Comment or Review</h2>
+
+            <!-- Comment form -->
+            <form id="commentForm" class="comment-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                
+                <label for="comment">Your Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" placeholder="Share your thoughts..." required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+
+            <!-- Success message -->
+            <p id="successMessage" class="success-message" style="display: none;">Thank you for your comment!</p>
+        </div>
+
+        <div class="comments-output-box">
+            <h3>Comments:</h3>
+            <div id="comments" class="comments-list">
+                <!-- Comments will be displayed here dynamically -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Link to the external JavaScript file -->
+    <script src="JAVASCRIPT.js"></script>
+
+</body>
+</html>

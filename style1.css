@@ -1,0 +1,23 @@
+body {
+    margin: 0; /* Remove default browser margin */
+    font-family: "Malgun Gothic", Arial, sans-serif; /* Set font to Malgun Gothic */
+    background-image: url('hangual.jpg'); /* Use the uploaded image as background */
+    background-size: cover; /* Ensure the image covers the whole page */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    background-position: center; /* Center the background image */
+    color: #333; /* Default text color for readability */
+}
+
+#hangul{
+    text-align: left; /* Align text to the left */
+    background-color: white; /* Set the background color to white */
+    padding: 10px; /* Add padding inside the element */
+    border: 1px solid #ccc; /* Add a light grey border (optional) */
+    border-radius: 5px; /* Add rounded corners (optional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow (optional) */
+}
+
+h3, h4{
+    text-align:left;
+    color:white;
+}
